@@ -1,5 +1,5 @@
 {% set name = "nanomotif" %}
-{% set version = "0.4.15" %}
+{% set version = "0.4.17" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/nanomotif-{{ version }}.tar.gz
-  sha256: 5019e390130cc0dc63831e2658e41300e7b0fdc403b52bd3fdf35677afc5d879
+  sha256: 7938f50ab930983a8cf965f06ce333dbfba38ab71002775bc67a33ff512602b5
 
 build:
   entry_points:
