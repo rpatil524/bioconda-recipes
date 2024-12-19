@@ -1,13 +1,13 @@
 {% set name = "icfree-ml" %}
-{% set version = "2.5.2" %}
+{% set version = "2.7.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/brsynth/icfree-ml/archive/refs/tags/2.5.2.tar.gz
-  sha256: e5f934b8116f2e17137a985b7f7ccc0e934b87ec3e21301cef6ab966a7ebde9c
+  url: https://github.com/brsynth/icfree-ml/archive/refs/tags/2.7.0.tar.gz
+  sha256: b59b58eaa6b13968bc7a0a2ce8ef3e5ba9928dbfc4f910c316b74a1dfae67f35
 
 build:
   number: 0
