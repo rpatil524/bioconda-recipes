@@ -1,5 +1,5 @@
 {% set name = "pybiolib" %}
-{% set version = "1.2.856" %}
+{% set version = "1.2.888" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pybiolib-{{ version }}.tar.gz
-  sha256: e46cc10fd080d76a26f34e33bd027cf53dfc40aebd1f3ae76447cab326e03d11
+  sha256: e08e36d4dc7c4e622e5d387de7592f50065bb8c4c5acc01e532d5184b7b5bea5
 
 build:
   number: 0

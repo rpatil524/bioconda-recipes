@@ -1,13 +1,13 @@
-{% set name = "MPRAlib" %}
-{% set version = "0.6.5" %}
+{% set name = "mpralib" %}
+{% set version = "0.7.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/mpralib-{{ version }}.tar.gz
-  sha256: 404bb8e47495f106a08448ca8126a765d98f1825235948a6f5b2e1a991b85c98
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 025dfccf39c19f0e1b64dc42e3b079a63a1e544e6aad227bdd1d5a76609f91cc
 
 build:
   run_exports:
@@ -32,7 +32,7 @@ requirements:
     - click
     - scikit-learn
     - scipy
-    - anndata
+    - anndata >=0.11.3
     - seaborn
     - matplotlib-base
     - jsonschema
