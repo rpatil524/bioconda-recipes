@@ -1,6 +1,6 @@
 {% set name = "metabolabpy" %}
-{% set version = "0.9.72" %}
-{% set sha256 = "4c51722aefab83721606f3881129822e861b798fa6ee95bca34fabccaa8866d1" %}
+{% set version = "0.9.74" %}
+{% set sha256 = "a9663c52aece51ed35e02a097c734717a5927b7da5eb0d385b96218223c166a6" %}
 
 package:
   name: {{ name|lower }}
